@@ -1,0 +1,21 @@
+HTTP Basics
+
+HTTP is a protocol used for communication between clients and servers.
+An HTTP request contains a method, a target, headers, and sometimes a body.
+An HTTP response contains a status code, headers, and sometimes a body.
+
+HTTP Status Codes
+
+Status codes in the 200 range generally indicate success.
+Status codes in the 300 range generally indicate redirection.
+Status codes in the 400 range indicate client errors.
+Status codes in the 500 range indicate server errors.
+
+API Errors
+
+A 400 response commonly indicates a bad request.
+A 401 response indicates that valid authentication credentials are missing
+or invalid.
+A 403 response indicates that the server refuses to authorize the request.
+A 404 response indicates that the requested resource was not found.
+A 500 response indicates an internal server error.

@@ -1,0 +1,20 @@
+FastAPI Basics
+
+FastAPI is a Python framework for building APIs.
+It uses Python type hints to support request validation and documentation.
+FastAPI applications commonly define endpoints using decorators.
+
+HTTP Methods
+
+GET requests are commonly used to retrieve resources.
+POST requests are commonly used to submit data or create resources.
+PUT requests generally replace a resource.
+PATCH requests partially update a resource.
+DELETE requests request resource deletion.
+
+Request Validation
+
+FastAPI can validate request data using Python type annotations and Pydantic
+models.
+Invalid request data can result in a validation error response.
+API endpoints should validate incoming data before processing it.

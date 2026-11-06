@@ -1,0 +1,26 @@
+Python Basics
+
+Python is a high-level programming language known for its readable syntax.
+Python supports procedural, object-oriented, and functional programming.
+Python programs are commonly organized into modules and packages.
+
+Variables and Data Types
+
+Variables store references to objects in Python.
+Common built-in data types include integers, floating-point numbers, strings,
+booleans, lists, tuples, sets, and dictionaries.
+
+Functions
+
+Functions are defined using the def keyword.
+Functions can accept parameters and return values.
+The return statement sends a result back to the caller.
+A function that does not explicitly return a value returns None.
+
+Exception Handling
+
+Python uses try and except blocks to handle exceptions.
+The finally block can execute cleanup code regardless of whether an exception
+occurred.
+Specific exception types should generally be caught instead of catching every
+possible exception indiscriminately.
